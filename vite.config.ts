@@ -5,7 +5,7 @@ import path from 'path';
 import { componentTagger } from 'lovable-tagger';
 
 export default defineConfig(({ mode }) => ({
-  base: '/visual-ui-tapestry/',
+  base: '/inclap/',
   plugins: [
     react(),
     mode === 'development' && componentTagger(),
